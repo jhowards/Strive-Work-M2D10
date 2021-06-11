@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Lato GOG Latin";
+  font-weight: 600;
+  font-style: normal;
+  src: url(/assets/LatoLatin-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Lato GOG Latin Semi-Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url(/assets/LatoLatin-Semibold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Lato GOG Latin Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url(/assets/LatoLatin-Bold.woff2) format("woff2");
+}
+
+body {
+  font-family: "Lato GOG Latin Semi-Bold", Fallback, sans-serif;
+  background-color: #d8d8d8;
+  font-size: 16px;
+}
+
+.navbar-custom {
+  background-color: #2c2c2c;
+  font-size: 14px;
+  max-height: 50px;
+  box-shadow: 0 1px 2px 1px rgb(165, 165, 165);
+  padding-left: 52px;
+  padding-top: 10px;
+}
+
+.navbar-nav > li {
+  padding-left: 16px;
+  padding-right: 10px;
+  color: rgb(212, 212, 212);
+}
+
+.navbar-nav > li > a {
+  color: #bababa;
+  font-family: "Lato GOG Latin Bold", Fallback, sans-serif;
+}
+
+p {
+  line-height: 16px;
+  font-size: 16px;
+}
+
+.goglogo {
+  color: white;
+}
