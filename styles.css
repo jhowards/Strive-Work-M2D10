@@ -69,11 +69,11 @@ body {
 .carousel {
   padding-left: 8px;
   padding-right: 8px;
-  max-height: 460px;
 }
 .carousel-inner {
   border-radius: 3px;
   box-shadow: 0 2px 5px 1px rgb(182, 182, 182);
+  object-fit: cover;
 }
 
 .carousel-indicators {
@@ -145,12 +145,15 @@ body {
   font-family: "Lato GOG Latin", Fallback, sans-serif;
   font-size: 14px;
   color: #666666;
-  height: 82px;
+  max-height: 80px;
   box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
+}
+.cardbigbody:hover {
+  background-color: #b9b9b9;
 }
 
 .cardsmall {
@@ -242,4 +245,10 @@ body {
 
 .overlay2 {
   filter: blur(2px);
+}
+
+.bigcard {
+  min-height: 336px;
+  object-fit: cover;
+  object-position: 50% 0;
 }
