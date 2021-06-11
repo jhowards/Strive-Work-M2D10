@@ -124,3 +124,29 @@ body {
 .card {
   max-width: 280px;
 }
+
+.midtext {
+  font-family: "Lato GOG Latin", Fallback, sans-serif;
+  font-stretch: expanded;
+  font-size: 14px;
+  color: #474747;
+}
+
+.midrow {
+  height: 70px;
+}
+
+.midcol {
+  padding-top: 13px;
+}
+.midcol2 {
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 0px;
+  border-left: 1px solid rgb(145, 145, 145);
+}
+
+.midcol2 p {
+  font-family: "Lato GOG Latin Bold", Fallback, sans-serif;
+  color: rgb(136, 79, 177);
+}
