@@ -25,13 +25,25 @@ body {
   font-size: 16px;
 }
 
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 .navbar-custom {
   background-color: #2c2c2c;
   font-size: 14px;
-  max-height: 52px;
-  box-shadow: 0 1px 2px 1px rgb(139, 139, 139);
+  /* max-height: 52px; */
+
+  min-height: 6vh;
+
+  box-shadow: 0 1px 2px 1px rgb(139, 139, 139, 0.5);
   padding-left: 52px;
-  padding-top: 10px;
+  padding: auto;
+  opacity: 0.95;
 }
 
 .navbar-nav > li {
@@ -62,7 +74,6 @@ body {
 .carousel-inner {
   border-radius: 3px;
   box-shadow: 0 2px 5px 1px rgb(182, 182, 182);
-  max-height: 460px;
 }
 
 .carousel-indicators {
@@ -118,11 +129,15 @@ body {
   font-size: 14px;
   color: #666666;
   max-height: 80px;
-  box-shadow: 0 1px 5px 1px rgb(204, 204, 204);
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.customcard:hover {
+  background-color: #b9b9b9;
 }
 
 .cardbigbody {
@@ -130,8 +145,8 @@ body {
   font-family: "Lato GOG Latin", Fallback, sans-serif;
   font-size: 14px;
   color: #666666;
-  max-height: 92px;
-  box-shadow: 0 1px 5px 1px rgb(204, 204, 204);
+  height: 82px;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 15%);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 15px;
@@ -140,13 +155,14 @@ body {
 
 .cardsmall {
   max-width: 280px;
+  margin: auto;
 }
 
 .midtext {
   font-family: "Lato GOG Latin", Fallback, sans-serif;
-  font-stretch: expanded;
   font-size: 14px;
   color: #474747;
+  text-align: left;
 }
 
 .midrow {
@@ -198,20 +214,32 @@ body {
   flex-direction: row;
   width: auto;
   height: auto;
+  flex-wrap: wrap;
   padding-left: 15px;
 }
 
 .socials {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   color: grey;
-}
-
-.whatsgoodgrid {
-  margin-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .whatsgood {
   padding-left: 15px;
   padding-right: 15px;
+}
+.pricetext {
+  color: black;
+  font-family: "Lato GOG Latin Bold", Fallback, sans-serif;
+  font-size: 16px;
+}
+
+.overlay1 {
+  filter: grayscale(0.5) blur(2px);
+}
+
+.overlay2 {
+  filter: blur(2px);
 }

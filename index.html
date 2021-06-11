@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
     />
 
     <!-- Bootstrap CSS -->
@@ -20,6 +20,7 @@
     <title>GOG Clone</title>
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   </head>
+
   <body>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -32,9 +33,9 @@
       crossorigin="anonymous"
     ></script>
 
-    <nav class="navbar navbar-expand-lg navbar-custom">
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top py-0">
       <div class="container">
-        <a class="navbar-brand mb-1" href="#">
+        <a class="navbar-brand mb-1 p-0" href="#">
           <span
             class="iconify goglogo"
             data-icon="mdi:gog"
@@ -170,7 +171,9 @@
         </div>
       </div>
     </nav>
-    <div class="container pl-4 pr-4">
+    <br/>
+    <br/>
+    <div class="container pl-4 pr-4 mt-4">
       <p class="mt-3 topbar">
         <span
           class="iconify mr-2"
@@ -271,7 +274,7 @@
                   <img class="card-img-top rounded-0" src="assets/tile (37).jpg" alt="Card image cap" style="height: 115px">
                   <div class="card-body customcard">
                     <p class="card-text">The Age of Decadence</p>
-                    <p class="card-text">$</p>
+                    <p class="card-text pricetext">$</p>
                   </div>
                 </div>
             </div>
@@ -280,7 +283,7 @@
                   <img class="card-img-top rounded-0" src="assets/tile (12).jpg" alt="Card image cap" style="height: 115px">
                   <div class="card-body customcard">
                     <p class="card-text">Darkquest + Darkquest 2</p>
-                    <p class="card-text">$</p>
+                    <p class="card-text pricetext">$</p>
                   </div>
                 </div>
             </div>
@@ -289,7 +292,7 @@
                   <img class="card-img-top rounded-0" src="assets/tile (4).jpg" alt="Card image cap" style="height: 115px">
                   <div class="card-body customcard">
                     <p class="card-text">Smart City Plan</p>
-                    <p class="card-text">$</p>
+                    <p class="card-text pricetext">$</p>
                   </div>
                 </div>
             </div>
@@ -298,7 +301,7 @@
                   <img class="card-img-top rounded-0" src="assets/tile (29).jpg" alt="Card image cap" style="height: 115px">
                   <div class="card-body customcard">
                     <p class="card-text">Murder By Numbers</p>
-                    <p class="card-text">$</p>
+                    <p class="card-text pricetext">$</p>
                   </div>
                 </div>
             </div>
@@ -333,70 +336,117 @@
         <hr/>
     </div>
     
-    <div class="container whatsgood">
-            <div class="row row-cols-1 row-cols-lg-2 whatsgoodgrid">
+    <div class="container whatsgood cards">
+            <div class="row row-cols-1 row-cols-lg-2">
                 <div class="col-6">
                     <div class="card mb-3">
-                        <img class="card-img-top rounded-0" src="assets/tile (9).jpg" alt="Card image cap" style="height: 320px">
+                        <img class="card-img-top rounded-0" src="assets/tile (9).jpg" alt="Card image cap" style="height: 330px">
                         <div class="card-body cardbigbody">
                           <p class="card-text">Baldurs Gate 2</p>
-                          <p class="card-text">$</p>s
+                          <p class="card-text pricetext">$</p>
                         </div>
                       </div>
                 </div>
                 <div class="col-6">
-                    <div class="row">
+                    <div class="row row row-cols-1 row-cols-lg-2">
                         <div class="col mb-2"><div class="card mb-3 cardsmall">
                             <img class="card-img-top rounded-0" src="assets/tile (29).jpg" alt="Card image cap" style="height: 115px">
                             <div class="card-body customcard">
                               <p class="card-text">Murder By Numbers</p>
-                              <p class="card-text">$</p>
+                              <p class="card-text pricetext">$</p>
                             </div>
                           </div></div>
                         <div class="col mb-2"><div class="card mb-3 cardsmall">
                             <img class="card-img-top rounded-0" src="assets/tile (29).jpg" alt="Card image cap" style="height: 115px">
                             <div class="card-body customcard">
                               <p class="card-text">Murder By Numbers</p>
-                              <p class="card-text">$</p>
-                            </div>
-                          </div></div>
-                        <div class="w-100"></div>
-                        <div class="col mb-2"><div class="card mb-3 cardsmall">
-                            <img class="card-img-top rounded-0" src="assets/tile (29).jpg" alt="Card image cap" style="height: 115px">
-                            <div class="card-body customcard">
-                              <p class="card-text">Murder By Numbers</p>
-                              <p class="card-text">$</p>
+                              <p class="card-text pricetext">$</p>
                             </div>
                           </div></div>
                         <div class="col mb-2"><div class="card mb-3 cardsmall">
                             <img class="card-img-top rounded-0" src="assets/tile (29).jpg" alt="Card image cap" style="height: 115px">
                             <div class="card-body customcard">
                               <p class="card-text">Murder By Numbers</p>
-                              <p class="card-text">$</p>
+                              <p class="card-text pricetext">$</p>
+                            </div>
+                          </div></div>
+                        <div class="col mb-2"><div class="card mb-3 cardsmall">
+                            <img class="card-img-top rounded-0" src="assets/tile (29).jpg" alt="Card image cap" style="height: 115px">
+                            <div class="card-body customcard">
+                              <p class="card-text">Murder By Numbers</p>
+                              <p class="card-text pricetext">$</p>
                             </div>
                           </div></div>
                       </div>
                 </div>
             </div>
 
-            <ol class="carousel-indicators">
+            <ol class="carousel-indicators mt-0">
                 <li
-                  data-target="#carouselExampleCaptions"
+                  data-target="#whatsgoodCaptions"
                   data-slide-to="0"
                   class="active"
                 ></li>
                 <li data-target="#whatsgoodCaptions" data-slide-to="1"></li>
                 <li data-target="#whatsgoodCaptions" data-slide-to="2"></li>
                 <li data-target="#whatsgoodCaptions" data-slide-to="3"></li>
-                <li data-target="#whatsgoodCaptions" data-slide-to="4"></li>
               </ol>
         </div>
+
+        <div class="container">
+            <p class="topbar mt-4"><span class="iconify" data-icon="whh:sale" data-inline="false"></span> Now on sale</p>
+            <hr/>
+        </div>
+        
+      
+            <div class="container mt-2 cards">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 px-2">
+                    <div class="col pr-2 d-flex">
+                        <img class="overlay1 mb-3" src="/assets/witcher.jpg" alt="" style="max-width:262px; margin:auto;">
+                    </div>
+                    <div class="col pr-2 d-flex">
+                        <img class="overlay2 mb-3" src="/assets/long2.jpg" alt="" style="max-width:262px; margin:auto;">
+                    </div>
+                    <div class="col pr-2">
+                      <div class="card mb-3 cardsmall">
+                          <img class="card-img-top rounded-0" src="assets/tile (4).jpg" alt="Card image cap" style="height: 115px">
+                          <div class="card-body customcard">
+                            <p class="card-text">Smart City Plan</p>
+                            <p class="card-text pricetext">$</p>
+                          </div>
+                        </div>
+                        <div class="card mb-3 cardsmall">
+                            <img class="card-img-top rounded-0" src="assets/tile (29).jpg" alt="Card image cap" style="height: 115px">
+                            <div class="card-body customcard">
+                              <p class="card-text">Murder By Numbers</p>
+                              <p class="card-text pricetext">$</p>
+                            </div>
+                          </div>
+                        
+                    </div>
+                    <div class="col">
+                      <div class="card mb-3 cardsmall">
+                          <img class="card-img-top rounded-0" src="assets/tile (29).jpg" alt="Card image cap" style="height: 115px">
+                          <div class="card-body customcard">
+                            <p class="card-text">Murder By Numbers</p>
+                            <p class="card-text pricetext">$</p>
+                          </div>
+                        </div>
+                        <div class="card mb-3 cardsmall">
+                            <img class="card-img-top rounded-0" src="assets/tile (4).jpg" alt="Card image cap" style="height: 115px">
+                            <div class="card-body customcard">
+                              <p class="card-text">Smart City Plan</p>
+                              <p class="card-text pricetext">$</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <br/>
+            <br/>
+            <br/>
     
-
-
-
-
-
 
     <div class="container-fluid px-0">
         <div class="container-fluid footer1">
@@ -429,6 +479,7 @@
         </div>
         <div class="container-fluid footer3"></div>
     </div>
+    
     
     
   </body>
