@@ -119,9 +119,26 @@ body {
   color: #666666;
   max-height: 80px;
   box-shadow: 0 1px 5px 1px rgb(204, 204, 204);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.card {
+.cardbigbody {
+  background-color: #ececec;
+  font-family: "Lato GOG Latin", Fallback, sans-serif;
+  font-size: 14px;
+  color: #666666;
+  max-height: 92px;
+  box-shadow: 0 1px 5px 1px rgb(204, 204, 204);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cardsmall {
   max-width: 280px;
 }
 
@@ -149,4 +166,52 @@ body {
 .midcol2 p {
   font-family: "Lato GOG Latin Bold", Fallback, sans-serif;
   color: rgb(136, 79, 177);
+}
+
+.footer1 {
+  background-color: #262626;
+  height: 60px;
+}
+
+.footer1inner {
+  color: white;
+  display: flex;
+  padding: 17px;
+  justify-content: space-between;
+}
+.footer2 {
+  background-color: #2f2f2f;
+  height: 95px;
+  box-shadow: 0 20px 5px 8px rgb(0, 0, 0);
+}
+.footer3 {
+  background-color: #262626;
+  height: 60px;
+  padding: 17px;
+}
+
+.links {
+  font-family: "Lato GOG Latin", Fallback, sans-serif;
+  color: #d5d5d5;
+  display: flex;
+  font-size: 14px;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  padding-left: 15px;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
+
+.whatsgoodgrid {
+  margin-bottom: 50px;
+}
+
+.whatsgood {
+  padding-left: 15px;
+  padding-right: 15px;
 }
